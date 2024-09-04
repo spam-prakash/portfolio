@@ -22,28 +22,28 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Custom Music Player",
-    image: project4,
+    image: "https://iili.io/dkVIc9j.png",
     description:
       "This project is a custom music player application developed during my internship at Unified Mentor. It provides a sleek and responsive platform for users to listen to their favorite music. Key features include secure user authentication, a dynamic music library, powerful search functionality, playlist management, and more.",
     technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
   },
   {
     title: "Calculatr App",
-    image: project2,
+    image: "https://iili.io/dkVI5Fe.png",
     description:
       "A simple calculator application built with HTML, CSS, and JavaScript. This project features a clean user interface and basic arithmetic operations.",
     technologies:  ["HTML", "CSS", "TailwindCSS", "JavaScript", ],
   },
   {
     title: "Image Carousel ",
-    image: project3,
+    image: "https://iili.io/dkVIlAx.png",
     description:
       "This project is a responsive image carousel developed during my internship at Unified Mentor. The carousel provides a seamless and visually appealing user experience, with a focus on clean design and intuitive functionality across all devices.",
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
   },
   {
     title: "Waether App",
-    image: project1,
+    image: "https://iili.io/dkVIY8b.png",
     description:
       "A simple and intuitive web application that provides real-time weather information based on user location. Built with a focus on ease of use, the app offers a clean and responsive design, making it accessible on any device.",
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "Express.js", "Node.js", "API"],
