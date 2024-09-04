@@ -16,7 +16,7 @@ export class Hero extends Component {
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col ">
               <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">
-                Prakash Kumar
+                Prakash
               </motion.h1>
               <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                 Full Stack Developer
