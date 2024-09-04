@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 // import dhd from '/assets/projects'
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like HTML5, CSS3, TailwindCSS and React, as well as back-end technologies like Node.js, Express.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I’m a passionate full stack developer skilled in creating robust web applications. With expertise in HTML5, CSS3, TailwindCSS, and React on the front end, and Node.js, Express.js, MySQL, PostgreSQL, and MongoDB on the back end, I aim to leverage my skills to build innovative solutions and enhance user experiences.`;
 
-export const ABOUT_TEXT = `I'm Prakash Kumar, a Computer Science Engineering student at Indo Global College Of Engineering and aspiring full-stack web developer. With a solid foundation in Python and MySQL from my higher secondary education, I've expanded my skills to include JavaScript, Node.js, Express.js, React.js, MongoDB, HTML5, CSS, and Tailwind CSS. I'm passionate about building efficient, scalable web applications and continuously learning new technologies. Let's connect and explore opportunities to collaborate!`;
+export const ABOUT_TEXT = `I'm Prakash Kumar, a Computer Science Engineering student at Indo Global College of Engineering and an aspiring full-stack web developer. With a strong foundation in Python and MySQL, I've expanded my skills to include JavaScript, Node.js, Express.js, React.js, MongoDB, HTML5, CSS, and Tailwind CSS. I’m passionate about building scalable web applications and eager to learn and collaborate on new projects.`;
 
 export const EXPERIENCES = [
    {
@@ -24,7 +24,7 @@ export const PROJECTS = [
     title: "Custom Music Player",
     image: "https://iili.io/dkVIc9j.png",
     description:
-      "This project is a custom music player application developed during my internship at Unified Mentor. It provides a sleek and responsive platform for users to listen to their favorite music. Key features include secure user authentication, a dynamic music library, powerful search functionality, playlist management, and more.",
+      "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
     technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
   },
   {
