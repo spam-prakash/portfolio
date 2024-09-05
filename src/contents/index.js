@@ -22,27 +22,31 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Custom Music Player",
+    repoLink:"https://github.com/akash-raushan/outlawsify",
     image: "https://iili.io/dkVIc9j.png",
     description:
       "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
     technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
   },
   {
+    title: "iNotebook ",
+    repoLink:"",
+    image: "https://iili.io/dkSIEbV.png",
+    description:
+      "iNotebook is a secure note-taking app with user authentication, allowing users to create and manage notes with a title, description, and tags. Its clean, Tailwind CSS-powered interface makes organizing and reviewing notes easy.",
+    technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "React.js", "Node.js", "Express.js", "JWT", "API"],
+  },
+  {
     title: "Calculatr App",
+    repoLink:"https://github.com/akash-raushan/calculator",
     image: "https://iili.io/dkVI5Fe.png",
     description:
       "A simple calculator application built with HTML, CSS, and JavaScript. This project features a clean user interface and basic arithmetic operations.",
     technologies:  ["HTML", "CSS", "TailwindCSS", "JavaScript", ],
   },
   {
-    title: "Image Carousel ",
-    image: "https://iili.io/dkVIlAx.png",
-    description:
-      "This project is a responsive image carousel developed during my internship at Unified Mentor. The carousel provides a seamless and visually appealing user experience, with a focus on clean design and intuitive functionality across all devices.",
-    technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
-  },
-  {
     title: "Waether App",
+    repoLink:"https://github.com/akash-raushan/weather-app",
     image: "https://iili.io/dkVIY8b.png",
     description:
       "A simple and intuitive web application that provides real-time weather information based on user location. Built with a focus on ease of use, the app offers a clean and responsive design, making it accessible on any device.",
