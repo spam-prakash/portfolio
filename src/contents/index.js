@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     year: "August 2024 - Present",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Designed and developed user interfaces for web applications using MongoDB, Express.js, React.js and Node.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "React.js", "JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS"]
   },
 
@@ -30,7 +30,7 @@ export const PROJECTS = [
   },
   {
     title: "iNotebook ",
-    repoLink:"",
+    repoLink:"https://github.com/akash-raushan/inotebook",
     image: "https://iili.io/dkSIEbV.png",
     description:
       "iNotebook is a secure note-taking app with user authentication, allowing users to create and manage notes with a title, description, and tags. Its clean, Tailwind CSS-powered interface makes organizing and reviewing notes easy.",
@@ -45,7 +45,7 @@ export const PROJECTS = [
     technologies:  ["HTML", "CSS", "TailwindCSS", "JavaScript", ],
   },
   {
-    title: "Waether App",
+    title: "Weather App",
     repoLink:"https://github.com/akash-raushan/weather-app",
     image: "https://iili.io/dkVIY8b.png",
     description:

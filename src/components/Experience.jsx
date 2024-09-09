@@ -6,7 +6,7 @@ export class Expreience extends Component {
   render() {
     return (
       <div className="border-b border-neutral-400 pb-4">
-        <motion.h2 initial={{opacity:0,y:-100}} whileInView={{opacity:1, y:0}} transition={{delay:0.2,duration:0.8}} className="my-20 text-center text-4xl">Exprerience</motion.h2>
+        <motion.h2 initial={{opacity:0,y:-100}} whileInView={{opacity:1, y:0}} transition={{delay:0.2,duration:0.8}} className="my-20 text-center text-4xl"> </motion.h2>
         <div>
           {EXPERIENCES.map((experience, index) => (
             <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{delay:0.4, duration:0.9}}  key={index} className="mb-8 flex flex-wrap lg:justify-center">

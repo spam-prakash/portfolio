@@ -29,7 +29,7 @@ export class Technologies extends Component {
   render() {
     return (
       <div className="border-b border-neutral-500 pb-24">
-        <motion.h2 initial={{opacity:0,y:-100}} whileInView={{opacity:1, y:0}} transition={{delay:0.2,duration:0.8}}  className="my-20 text-center text-4xl">Techonologies</motion.h2>
+        <motion.h2 initial={{opacity:0,y:-100}} whileInView={{opacity:1, y:0}} transition={{delay:0.2,duration:0.8}}  className="my-20 text-center text-4xl">Technologies</motion.h2>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -43,7 +43,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiHtml5Line className="text-7xl text-red-400" />
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><RiHtml5Line className="text-7xl text-red-400" /></a>
           </motion.div>
 
           <motion.div
@@ -52,7 +52,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiCss3Line className="text-7xl text-blue-800" />
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><RiCss3Line className="text-7xl text-blue-800" /></a>
           </motion.div>
 
           <motion.div
@@ -61,7 +61,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiTailwindCssLine className="text-7xl text-cyan-200" />
+            <a href="https://tailwindcss.com/docs/installation" target="_blank"><RiTailwindCssLine className="text-7xl text-cyan-200" /></a>
           </motion.div>
 
           <motion.div
@@ -70,7 +70,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiJavascriptLine className="text-7xl text-yellow-400" />
+           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <RiJavascriptLine className="text-7xl text-yellow-400" /></a>
           </motion.div>
 
           <motion.div
@@ -79,7 +79,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiNodejsLine className="text-7xl " />
+            <a href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" target="_blank"><RiNodejsLine className="text-7xl " /></a>
           </motion.div>
 
           <motion.div
@@ -88,7 +88,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiMongodb className="text-7xl text-green-500" />
+            <a href="https://www.mongodb.com/docs/manual/" target="_blank"><SiMongodb className="text-7xl text-green-500" /></a>
           </motion.div>
 
           <motion.div
@@ -97,7 +97,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiReactjsLine className="text-7xl text-cyan-400" />
+            <a href="https://react.dev/learn" target="_blank"><RiReactjsLine className="text-7xl text-cyan-400" /></a>
           </motion.div>
 
           <motion.div
@@ -106,7 +106,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiExpress className="text-7xl text-slate-400" />
+            <a href="https://expressjs.com/en/starter/installing.html" target="_blank"><SiExpress className="text-7xl text-slate-400" /></a>
           </motion.div>
 
           <motion.div
@@ -115,7 +115,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiMysql className="text-7xl text-orange-300" />
+            <a href="https://dev.mysql.com/doc/" target="_blank"><SiMysql className="text-7xl text-orange-300" /></a>
           </motion.div>
 
           <motion.div
@@ -124,7 +124,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiPython className="text-7xl text-yellow-300" />
+            <a href="https://docs.python.org/3/" target="_blank"><SiPython className="text-7xl text-yellow-300" /></a>
           </motion.div>
 
           <motion.div
@@ -133,7 +133,7 @@ export class Technologies extends Component {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiCplusplus className="text-7xl text-blue-800" />
+            <a href="https://devdocs.io/cpp/" target="_blank"><SiCplusplus className="text-7xl text-blue-800" /></a>
           </motion.div>
           
         </motion.div>
