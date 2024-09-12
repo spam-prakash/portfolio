@@ -19,7 +19,7 @@ export class About extends Component {
 
           <div className="w-full lg:w-1/2 items-center">
             <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 100 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ delay: 0.2, duration: 0.6 }}
               className="flex justify-center text-center"
