@@ -30,7 +30,7 @@ export const PROJECTS = [
   },
   {
     title: "iNotebook ",
-    repoLink:"https://github.com/akash-raushan/inotebook",
+    repoLink:"https://inotebook-frontend-murex.vercel.app/",
     image: "https://iili.io/dkSIEbV.png",
     description:
       "iNotebook is a secure note-taking app with user authentication, allowing users to create and manage notes with a title, description, and tags. Its clean, Tailwind CSS-powered interface makes organizing and reviewing notes easy.",
