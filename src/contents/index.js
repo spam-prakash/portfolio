@@ -9,8 +9,15 @@ export const HERO_CONTENT = `I’m a passionate full stack developer skilled in 
 export const ABOUT_TEXT = `I'm Prakash Kumar, a Computer Science Engineering student at Indo Global College of Engineering and an aspiring full-stack web developer. With a strong foundation in Python and MySQL, I've expanded my skills to include JavaScript, Node.js, Express.js, React.js, MongoDB, HTML5, CSS, and Tailwind CSS. I’m passionate about building scalable web applications and eager to learn and collaborate on new projects.`;
 
 export const EXPERIENCES = [
-   {
-    year: "August 2024 - Present",
+  {
+    year: "September 2024 - Persent",
+    role: "Web Development Volunteer Lead",
+    company: "Google Developer Groups on Campus: IGC",
+    description: `Led web development initiatives as a volunteer lead at Google Developer Groups on IGC. Organized and facilitated workshops and events to foster a collaborative learning environment for developers. Worked with a team to create engaging sessions focused on skill-building, knowledge sharing, and empowering members to enhance their web development expertise.`,
+    technologies: ["Communication", "Team Work", "HTML", "CSS", "React.js", "JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS"]
+  },
+  {
+    year: "August 2024 - November 2024",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
     description: `Designed and developed user interfaces for web applications using MongoDB, Express.js, React.js and Node.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
