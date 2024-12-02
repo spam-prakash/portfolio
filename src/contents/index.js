@@ -44,7 +44,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "React.js", "Node.js", "Express.js", "JWT", "API"],
   },
   {
-    title: "Calculatr App",
+    title: "Calculator App",
     repoLink:"https://github.com/akash-raushan/calculator",
     image: "https://iili.io/dkVI5Fe.png",
     description:
