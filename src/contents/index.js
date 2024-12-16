@@ -36,7 +36,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    title: "iNotebook ",
+    title: "iNotebook ", 
     repoLink:"https://inotebook-frontend-murex.vercel.app/",
     image: "https://iili.io/dkSIEbV.png", 
     description:
