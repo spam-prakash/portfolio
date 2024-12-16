@@ -34,9 +34,9 @@ export const PROJECTS = [
     description:
       "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
     technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-  },
+  }, 
   {
-    title: "iNotebook ", 
+    title: "iNotebook ",  
     repoLink:"https://inotebook-frontend-murex.vercel.app/",
     image: "https://iili.io/dkSIEbV.png", 
     description:
