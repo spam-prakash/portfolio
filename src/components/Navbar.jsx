@@ -16,8 +16,8 @@ export class Navbar extends Component {
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
          <a href="https://www.linkedin.com/in/prakashkumar1167/" target="_blank"><FaLinkedin /></a> 
          <a href="https://www.github.com/akash-raushan/" target="_blank"><FaGithub /></a> 
-         <a href="https://www.instagram.com/akash_raushan_/" target="_blank"><FaInstagram /></a> 
-         <a href="https://www.x.com/akash_raushan_" target="_blank"><FaSquareXTwitter /></a> 
+         <a href="https://www.instagram.com/_akash_raushan/" target="_blank"><FaInstagram /></a> 
+         <a href="https://www.x.com/_akash_raushan" target="_blank"><FaSquareXTwitter /></a> 
         </div>
       </nav>
     );
