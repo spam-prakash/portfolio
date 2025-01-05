@@ -28,14 +28,6 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Custom Music Player",
-    repoLink:"https://github.com/akash-raushan/outlawsify",
-    image: "https://iili.io/dkVIc9j.png",
-    description:
-      "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
-    technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-  }, 
-  {
     title: "iNotebook",  
     repoLink:"https://inotebook-frontend-murex.vercel.app/",
     image: "https://iili.io/dkSIEbV.png", 
@@ -43,6 +35,14 @@ export const PROJECTS = [
       "iNotebook is a secure note-taking app with user authentication, allowing users to create and manage notes with a title, description, and tags. Its clean, Tailwind CSS-powered interface makes organizing and reviewing notes easy.",
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "React.js", "Node.js", "Express.js", "JWT", "API"],
   },
+  {
+    title: "Custom Music Player",
+    repoLink:"https://github.com/akash-raushan/outlawsify",
+    image: "https://iili.io/dkVIc9j.png",
+    description:
+      "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
+    technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+  }, 
   {
     title: "Calculator App",
     repoLink:"https://github.com/akash-raushan/calculator",
