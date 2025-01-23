@@ -17,6 +17,13 @@ export const EXPERIENCES = [
     technologies: ["Communication", "Team Work", "HTML", "CSS", "React.js", "JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS"]
   },
   {
+    year: "October 2024 - Persent",
+    role: "InternShala Student Partner",
+    company: "InternShala",
+    description: `As an Internshala Student Partner, I served as a campus ambassador, promoting Internshala’s initiatives and connecting students with valuable internship opportunities. My role involved organizing awareness campaigns, driving student engagement, and enhancing career growth for peers through Internshala’s platform.`,
+    technologies: ["Communication", "Team Work"]
+  },
+  {
     year: "August 2024 - November 2024",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
