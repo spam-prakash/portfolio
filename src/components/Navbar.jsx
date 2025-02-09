@@ -14,10 +14,10 @@ export class Navbar extends Component {
           <img src="https://iili.io/dkVxE5x.png" alt="" className="mx-2 w-20  filter brightness-100" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-         <a href="https://www.linkedin.com/in/prakashkumar1167/" target="_blank"><FaLinkedin /></a> 
-         <a href="https://www.github.com/akash-raushan/" target="_blank"><FaGithub /></a> 
-         <a href="https://www.instagram.com/_akash_raushan/" target="_blank"><FaInstagram /></a> 
-         <a href="https://www.x.com/_akash_raushan" target="_blank"><FaSquareXTwitter /></a> 
+         <a href="https://www.linkedin.com/in/spam-prakash/" target="_blank"><FaLinkedin /></a> 
+         <a href="https://www.github.com/spam-prakash/" target="_blank"><FaGithub /></a> 
+         <a href="https://www.instagram.com/spam_prakash/" target="_blank"><FaInstagram /></a> 
+         <a href="https://www.x.com/spam_prakash" target="_blank"><FaSquareXTwitter /></a> 
         </div>
       </nav>
     );
