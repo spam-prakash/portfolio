@@ -11,7 +11,7 @@ export class Expreience extends Component {
           {EXPERIENCES.map((experience, index) => (
             <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{delay:0.4, duration:0.9}}  key={index} className="mb-8 flex flex-wrap lg:justify-center">
               <div className="w-full lg:w-1/4">
-                <p className="mb-2 text-sm text-neutral-400">
+                <p className="mb-2 text-sm text-neutral-400"> 
                   {experience.year}
                 </p>
               </div>
