@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HERO_CONTENT } from "../contents";
-import dp from "../assets/img/DP_new.png";
+import dp from "../assets/img/newdp.png";
 import { delay, motion } from "framer-motion";
 
 const container=(delay)=>({
