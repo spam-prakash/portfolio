@@ -9,7 +9,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export class Navbar extends Component {
   render() {
     return (
-      <nav className="mb-20 flex items-center justify-between py-6">
+      <nav className="mb-10 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center ">  {/*bg-white bg-blend-soft-light opacity-50 rounded-[50%] */}
           <img src="https://iili.io/dkVxE5x.png" alt="" className="mx-2 w-20  filter brightness-100" />
         </div>

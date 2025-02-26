@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HERO_CONTENT } from "../contents";
-import dp from "../assets/img/DP.gif";
+import dp from "../assets/img/DP_new.png";
 import { delay, motion } from "framer-motion";
 
 const container=(delay)=>({
@@ -28,7 +28,7 @@ export class Hero extends Component {
           </div>
           <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex justify-center">
-              <motion.img initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.5}} src="https://iili.io/dkVxWzB.gif" alt="" className="w-[36rem]" />
+              <motion.img initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.5}} src={dp} alt="" className="w-[24rem] " />
             </div>
           </div>
         </div>
