@@ -10,63 +10,100 @@ export const ABOUT_TEXT = `I'm Prakash Kumar, a Computer Science Engineering stu
 
 export const EXPERIENCES = [
   {
-    year: "September 2024 - Persent",
-    role: "Web Development Volunteer Lead",
+    year: "September 2025 - Present",
+    role: "Web Development Team Head",
     company: "Google Developer Groups on Campus: IGC",
-    description: `Led web development initiatives as a volunteer lead at Google Developer Groups on IGC. Organized and facilitated workshops and events to foster a collaborative learning environment for developers. Worked with a team to create engaging sessions focused on skill-building, knowledge sharing, and empowering members to enhance their web development expertise.`,
-    technologies: ["Communication", "Team Work", "HTML", "CSS", "React.js", "JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS"]
+    description: `Leading the Web Development team at GDGoC: IGC, overseeing project execution, mentoring developers, and managing technical initiatives on campus. Responsible for planning workshops, guiding members in modern web technologies, and ensuring high-quality community-driven web projects.`,
+    technologies: [
+      "Leadership", "Project Management", "Team Coordination",
+      "React.js", "Node.js", "JavaScript", "TailwindCSS",
+      "MongoDB", "Express.js"
+    ]
   },
+
   {
-    year: "October 2024 - Persent",
+    year: "September 2024 - August 2025",
+    role: "Volunteer Lead",
+    company: "Google Developer Groups on Campus: IGC",
+    description: `Led web development activities as a volunteer, organizing workshops and technical sessions to help students learn and collaborate. Worked with the community team to create impactful developer-focused events and strengthen technical engagement on campus.`,
+    technologies: [
+      "Communication", "Leadership", "Team Work",
+      "HTML", "CSS", "JavaScript", "React.js",
+      "Node.js", "Express.js", "MongoDB", "TailwindCSS"
+    ]
+  },
+
+  {
+    year: "October 2024 - July 2025",
     role: "Internshala Student Partner",
     company: "Internshala",
-    description: `As an Internshala Student Partner, I served as a campus ambassador, promoting Internshala’s initiatives and connecting students with valuable internship opportunities. My role involved organizing awareness campaigns, driving student engagement, and enhancing career growth for peers through Internshala’s platform.`,
+    description: `Served as a campus ambassador, promoting Internshala programs and internship opportunities. Conducted awareness activities, engaged students, and helped peers explore career-building resources through the platform.`,
     technologies: ["Communication", "Team Work"]
   },
+
   {
     year: "August 2024 - November 2024",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
-    description: `Designed and developed user interfaces for web applications using MongoDB, Express.js, React.js and Node.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "React.js", "JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS"]
-  },
-
+    description: `Contributed to frontend and backend development using the MERN stack. Developed responsive UI components, integrated APIs, and collaborated with backend developers to optimize performance and deliver full-stack modules.`,
+    technologies: [
+      "HTML", "CSS", "React.js", "JavaScript",
+      "MongoDB", "Node.js", "Express.js", "TailwindCSS"
+    ]
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "iNotebook",  
-    repoLink:"https://inotebook-frontend-murex.vercel.app/",
-    image: "https://iili.io/dkSIEbV.png", 
-    description: 
-      "iNotebook is a secure note-taking app with user authentication, allowing users to create and manage notes with a title, description, and tags. Its clean, Tailwind CSS-powered interface makes organizing and reviewing notes easy.",
-    technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "React.js", "Node.js", "Express.js", "JWT", "API"],
+    title: "Wryta",
+    liveLink:"https://wryta-frontend.vercel.app/",
+    repoLink: "https://github.com/spam-prakash/wryta",
+    image: "https://iili.io/fBhGKt1.md.png",
+    description:
+      "Wryta is a modern social notes platform that combines personal note-taking with social interactions. It supports secure authentication, public and private notes, real-time likes and share analytics, and optimized APIs that fetch all notes and interaction metadata in a single request. Built with a clean, responsive UI using Tailwind CSS.",
+    technologies: [
+      "React.js", "TailwindCSS", "Node.js", "Express.js",
+      "MongoDB", "JWT", "JavaScript", "API"
+    ],
   },
   {
+    title: "Sampatti",
+    liveLink:"https://sampatti.vercel.app/",
+    repoLink: "https://github.com/spam-prakash/sampatti",
+    image: "https://iili.io/fBhVGZ7.md.png", // Replace with real image link
+    description:
+      "Sampatti is a property verification and management platform built during the Hack-N-Win hackathon. It enables users to securely store documents, validate land records, and access property data through a streamlined dashboard. Designed for reliability, accuracy, and ease of use.",
+    technologies: [
+      "React.js", "TailwindCSS", "Node.js",
+      "Express.js", "MongoDB", "JavaScript", "API"
+    ],
+  },
+    {
     title: "Custom Music Player",
-    repoLink:"https://github.com/akash-raushan/outlawsify",
+    liveLink:"https://github.com/akash-raushan/outlawsify",
+    repoLink: "https://github.com/akash-raushan/outlawsify",
     image: "https://iili.io/dkVIc9j.png",
     description:
-      "This project is a custom music player developed during my internship at Unified Mentor. It offers a sleek, responsive platform with features like secure authentication, a dynamic library, powerful search, and playlist management.",
-    technologies: ["HTML", "CSS", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-  }, 
-  {
-    title: "Calculator App",
-    repoLink:"https://github.com/akash-raushan/calculator",
-    image: "https://iili.io/dkVI5Fe.png",
-    description:
-      "A simple calculator application built with HTML, CSS, and JavaScript. This project features a clean user interface and basic arithmetic operations.",
-    technologies:  ["HTML", "CSS", "TailwindCSS", "JavaScript", ],
+      "A full-stack custom music player offering secure user authentication, a dynamic music library, advanced search, and playlist management. Designed with a responsive UI, the app also includes backend API integration and is planned for future expansion with Spotify data and recommendations.",
+    technologies: [
+      "JavaScript", "TailwindCSS", "Node.js",
+      "Express.js", "MongoDB", "HTML", "CSS"
+    ],
   },
   {
     title: "Weather App",
-    repoLink:"https://github.com/akash-raushan/weather-app",
+    liveLink:"https://spam-prakash.github.io/weather-app/",
+    repoLink: "https://github.com/akash-raushan/weather-app",
     image: "https://iili.io/dkVIY8b.png",
     description:
-      "A simple and intuitive web application that provides real-time weather information based on user location. Built with a focus on ease of use, the app offers a clean and responsive design, making it accessible on any device.",
-    technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "Express.js", "Node.js", "API"],
+      "A clean and responsive weather application that displays real-time temperature, conditions, and location-based forecasts. Focused on usability and speed, it provides accurate weather data through external APIs wrapped in a simple, intuitive interface.",
+    technologies: [
+      "HTML", "CSS", "JavaScript",
+      "TailwindCSS", "Node.js", "Express.js", "API"
+    ],
   },
 ];
+
 
 export const CONTACT = {
   address: "Chandigarh, India",

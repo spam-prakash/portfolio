@@ -14,7 +14,7 @@ export class Projects extends Component {
               className="flex flex-wrap mb-8 lg:justify-center align-middle "
             >
               <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{delay:0, duration:0.5}}  className="w-full lg:w-1/4">
-                <a href={project.repoLink} target="_blank"><img
+                <a href={project.liveLink} target="_blank"><img
                   src={project.image}
                   alt={project.title}
                   className="w-96 mb-6 rounded"
