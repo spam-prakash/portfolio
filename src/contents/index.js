@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `I'm Prakash Kumar, a Computer Science Engineering stu
 export const EXPERIENCES = [
   {
     year: "September 2025 - Present",
-    role: "Web Development Team Head",
+    role: "Web Development Head",
     company: "Google Developer Groups on Campus: IGC",
     description: `Leading the Web Development team at GDGoC: IGC, overseeing project execution, mentoring developers, and managing technical initiatives on campus. Responsible for planning workshops, guiding members in modern web technologies, and ensuring high-quality community-driven web projects.`,
     technologies: [
