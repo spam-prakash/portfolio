@@ -20,7 +20,13 @@ export const EXPERIENCES = [
       "MongoDB", "Express.js"
     ]
   },
-
+  {
+    year: "October 2024 - July 2025",
+    role: "Internshala Student Partner",
+    company: "Internshala",
+    description: `Served as a campus ambassador, promoting Internshala programs and internship opportunities. Conducted awareness activities, engaged students, and helped peers explore career-building resources through the platform.`,
+    technologies: ["Communication", "Team Work"]
+  },
   {
     year: "September 2024 - August 2025",
     role: "Volunteer Lead",
@@ -32,15 +38,6 @@ export const EXPERIENCES = [
       "Node.js", "Express.js", "MongoDB", "TailwindCSS"
     ]
   },
-
-  {
-    year: "October 2024 - July 2025",
-    role: "Internshala Student Partner",
-    company: "Internshala",
-    description: `Served as a campus ambassador, promoting Internshala programs and internship opportunities. Conducted awareness activities, engaged students, and helped peers explore career-building resources through the platform.`,
-    technologies: ["Communication", "Team Work"]
-  },
-
   {
     year: "August 2024 - November 2024",
     role: "Full Stack Developer Intern",
