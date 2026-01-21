@@ -101,7 +101,6 @@ export const PROJECTS = [
   },
 ];
 
-
 export const CONTACT = {
   address: "Chandigarh, India",
   phoneNo: "+919508532566",
